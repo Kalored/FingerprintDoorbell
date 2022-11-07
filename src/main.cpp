@@ -663,7 +663,7 @@ void setup()
         {
           mqttConfigValid = true;
           Serial.println("IP used for MQTT server: " + mqttServerIp.toString());
-          mqttClient.setServer(mqttServerIp , 1883);
+          mqttClient.setServer(mqttServerIp , 1893);
           mqttClient.setCallback(mqttCallback);
           connectMqttClient();
         }
